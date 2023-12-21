@@ -1,0 +1,37 @@
+name: Sync IP addresses
+
+on:
+  pull_request:
+    paths:
+      - 'list.json'
+
+jobs:
+  update-ip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Update IP addresses
+        run: node sync-dns.js
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          PR_BRANCH="${{ github.event.pull_request.head.ref }}"
+          git checkout -b $PR_BRANCH
+          git add list.json
+          git commit -m "Update IP addresses"
+          git push origin $PR_BRANCH

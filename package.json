@@ -1,0 +1,19 @@
+{
+  "name": "bastyon-peertubes",
+  "version": "0.0.1",
+  "description": "Bastyon app peertube servers listing",
+  "main": "index.js",
+  "scripts": {
+    "sync": "node sync-dns.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpingalet007/bastyon-peertubes.git"
+  },
+  "author": "shpingalet007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shpingalet007/bastyon-peertubes/issues"
+  },
+  "homepage": "https://github.com/shpingalet007/bastyon-peertubes#readme"
+}
