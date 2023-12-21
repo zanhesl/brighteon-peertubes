@@ -65,8 +65,13 @@ updateIPs().then(() => {
     }
   }
 
+  const jsonString = JSON.stringify({
+    lastChecked: Date.now(),
+    ...jsonContent,
+  }, null, 2);
+
   // Write updated JSON back to file
-  fs.writeFileSync(JSON_FILE, JSON.stringify(jsonContent, null, 2));
+  fs.writeFileSync(JSON_FILE, jsonString);
   console.log('IP addresses and online status updated successfully.');
 }).catch((error) => {
   console.error('Error updating IP addresses and online status:', error);
