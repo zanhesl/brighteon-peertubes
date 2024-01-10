@@ -52,15 +52,13 @@ updateIPs().then(() => {
       for (let i = 0; i < swarm.list.length; i++) {
         let entry = swarm.list[i];
 
-        if (entry.ip) {
-          swarm.list[i] = {
-            host: entry.host,
-            ip: entry.ip,
-            upload: entry.upload,
-            special: entry.special,
-            online: entry.online,
-          };
-        }
+        swarm.list[i] = {
+          host: entry.host,
+          ip: entry.ip,
+          upload: entry.upload,
+          special: entry.special,
+          online: entry.online,
+        };
       }
     }
   }
