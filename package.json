@@ -1,6 +1,6 @@
 {
   "name": "bastyon-peertubes",
-  "version": "0.0.1",
+  "version": "0.1.5",
   "description": "Bastyon app peertube servers listing",
   "main": "index.js",
   "scripts": {
