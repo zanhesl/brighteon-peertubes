@@ -1,715 +1,717 @@
 {
   "lastChecked": 1703189815238,
   "archive": {
-    "ar01": {
+    "bastyon_ar01": {
+      "hooked": true,
       "host": "peertube.archive.pocketnet.app",
       "upload": false
     },
-    "xx01": {
+    "bastyon_xx01": {
+      "hooked": true,
       "host": "peertube41.pocketnet.app",
       "upload": false
     },
-    "xx02": {
+    "bastyon_xx02": {
+      "hooked": true,
       "host": "peertube51.pocketnet.app",
       "upload": false
     },
-    "xx03": {
+    "bastyon_xx03": {
+      "hooked": true,
       "host": "peertube321.pocketnet.app",
       "upload": false
     },
-    "xx04": {
+    "bastyon_xx04": {
+      "hooked": true,
       "host": "peertube341.pocketnet.app",
       "upload": false
     },
-    "xx05": {
+    "bastyon_xx05": {
+      "hooked": true,
       "host": "peertube351.pocketnet.app",
       "upload": false
     }
   },
   "swarms": {
-    "s01": {
+    "bastyon_s01": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube1.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube2.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s02": {
+    "bastyon_s02": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube5.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube7.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s03": {
+    "bastyon_s03": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube4.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube6.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s04": {
+    "bastyon_s04": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube8.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube9.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s05": {
+    "bastyon_s05": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube10.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube11.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s06": {
+    "bastyon_s06": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "bastyonmma.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "bastyonmma.nohost.me",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s07": {
+    "bastyon_s07": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "01rus.nohost.me",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         },
         {
           "host": "02rus.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s08": {
+    "bastyon_s08": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "pocketnetpeertube12.nohost.me",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         },
         {
           "host": "pocketnetpeertube13.nohost.me",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s09": {
+    "bastyon_s09": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube14.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         },
         {
           "host": "peertube15.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s10": {
+    "bastyon_s10": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "poketnetpeertube.space",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "poketnetpeertube.ru",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s11": {
+    "bastyon_s11": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "bastynode.ru",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "storemi.ru",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s12": {
+    "bastyon_s12": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "bastynode1.ru",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "gf110.ru",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s13": {
+    "bastyon_s13": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "bastyonpeertube.ru",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "bastyonpeertube.site",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s14": {
+    "bastyon_s14": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube17.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s15": {
+    "bastyon_s15": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube18.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s16": {
+    "bastyon_s16": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube19.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s17": {
+    "bastyon_s17": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube17mirror.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s18": {
+    "bastyon_s18": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube18mirror.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s19": {
+    "bastyon_s19": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube19mirror.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s20": {
+    "bastyon_s20": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube20.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s21": {
+    "bastyon_s21": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube21.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s22": {
+    "bastyon_s22": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube22.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s23": {
+    "bastyon_s23": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube23.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s24": {
+    "bastyon_s24": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube24.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s25": {
+    "bastyon_s25": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube25.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "peertube25mirror.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s26": {
+    "bastyon_s26": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube26.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         },
         {
           "host": "peertube26mirror.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s27": {
+    "bastyon_s27": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube27.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s28": {
+    "bastyon_s28": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube28.pocketnet.app",
           "ip": "138.201.91.156",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s29": {
+    "bastyon_s29": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube29.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s30": {
+    "bastyon_s30": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube30.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s31": {
+    "bastyon_s31": {
+      "hooked": true,
       "archived": [
-        "xx02",
-        "ar01"
+        "bastyon_xx02",
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube5new.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s32": {
+    "bastyon_s32": {
+      "hooked": true,
       "archived": [
-        "xx01",
-        "ar01"
+        "bastyon_xx01",
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube4new.pocketnet.app",
           "ip": "135.181.108.193",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s33": {
+    "bastyon_s33": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube6new.pocketnet.app",
           "ip": "159.69.127.9",
           "upload": false,
-          "special": false,
           "online": true
         }
       ]
     },
-    "s34": {
+    "bastyon_s34": {
+      "hooked": true,
       "archived": [
-        "xx03",
-        "ar01"
+        "bastyon_xx03",
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube32.pocketnet.app",
           "upload": false,
-          "special": false,
           "online": false
         }
       ]
     },
-    "s35": {
+    "bastyon_s35": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube33.pocketnet.app",
           "ip": "185.141.60.118",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s36": {
+    "bastyon_s36": {
+      "hooked": true,
       "archived": [
-        "xx04",
-        "ar01"
+        "bastyon_xx04",
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube34.pocketnet.app",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": false
         }
       ]
     },
-    "s37": {
+    "bastyon_s37": {
+      "hooked": true,
       "archived": [
-        "xx05",
-        "ar01"
+        "bastyon_xx05",
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube35.pocketnet.app",
           "upload": false,
-          "special": true,
           "online": false
         }
       ]
     },
-    "s38": {
+    "bastyon_s38": {
+      "hooked": true,
       "archived": [
-        "ar01"
+        "bastyon_ar01"
       ],
       "list": [
         {
           "host": "peertube31.pocketnet.app",
           "upload": false,
-          "special": true,
           "online": false
         }
       ]
     },
-    "s39": {
+    "bastyon_s39": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube51.pocketnet.app",
           "ip": "95.217.209.217",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s40": {
+    "bastyon_s40": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube41.pocketnet.app",
           "ip": "135.181.108.193",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s41": {
+    "bastyon_s41": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube70.pocketnet.app",
           "ip": "37.27.11.93",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s42": {
+    "bastyon_s42": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube80.pocketnet.app",
           "ip": "65.21.249.150",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s43": {
+    "bastyon_s43": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube90.pocketnet.app",
           "ip": "135.181.107.25",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s44": {
+    "bastyon_s44": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube100.pocketnet.app",
           "ip": "135.181.158.64",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s45": {
+    "bastyon_s45": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube321.pocketnet.app",
           "ip": "185.141.60.101",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s46": {
+    "bastyon_s46": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube341.pocketnet.app",
           "ip": "185.141.60.119",
-          "upload": true,
-          "special": false,
+          "upload": false,
           "online": true
         }
       ]
     },
-    "s47": {
+    "bastyon_s47": {
+      "hooked": true,
       "archived": false,
       "list": [
         {
           "host": "peertube351.pocketnet.app",
           "ip": "185.148.146.11",
+          "upload": false,
+          "online": true
+        }
+      ]
+    },
+    "bs01": {
+      "archived": false,
+      "list": [
+        {
+          "host": "video01.brighteon.io",
+          "ip": "188.114.97.5",
           "upload": true,
-          "special": true,
           "online": true
         }
       ]

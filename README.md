@@ -1,3 +1,3 @@
-# Bastyon Peertube servers listing
+# Brighteon Peertube servers listing
 
 Used to keep list in app updated
