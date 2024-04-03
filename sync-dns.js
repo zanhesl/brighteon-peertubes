@@ -137,8 +137,8 @@ updateIPs().then(() => {
   }
 
   const jsonString = JSON.stringify({
-    lastChecked: Date.now(),
     ...jsonContent,
+    lastChecked: Date.now(),
   }, null, 2);
 
   // Write updated JSON back to file
