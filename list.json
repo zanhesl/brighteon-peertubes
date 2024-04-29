@@ -1,5 +1,5 @@
 {
-  "lastChecked": 1703189815238,
+  "lastChecked": 1714377222538,
   "archive": {
     "bastyon_ar01": {
       "hooked": true,
@@ -546,7 +546,9 @@
     },
     "bastyon_s35": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube33.pocketnet.app",
@@ -700,6 +702,19 @@
         {
           "host": "peertube351.pocketnet.app",
           "ip": "185.148.146.11",
+          "upload": false,
+          "online": true
+        }
+      ]
+    },
+    "bastyon_ts01": {
+      "hooked": true,
+      "archived": false,
+      "testnet": true,
+      "list": [
+        {
+          "host": "test.peertube.pocketnet.app",
+          "ip": "65.108.83.132",
           "upload": false,
           "online": true
         }
