@@ -1,5 +1,5 @@
 {
-  "lastChecked": 1714377222538,
+  "lastChecked": 1714556046168,
   "archive": {
     "bastyon_ar01": {
       "hooked": true,
@@ -601,7 +601,9 @@
     },
     "bastyon_s39": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube51.pocketnet.app",
@@ -613,7 +615,9 @@
     },
     "bastyon_s40": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube41.pocketnet.app",
@@ -625,7 +629,9 @@
     },
     "bastyon_s41": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube70.pocketnet.app",
@@ -637,7 +643,9 @@
     },
     "bastyon_s42": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube80.pocketnet.app",
@@ -649,7 +657,9 @@
     },
     "bastyon_s43": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube90.pocketnet.app",
@@ -661,7 +671,9 @@
     },
     "bastyon_s44": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube100.pocketnet.app",
@@ -702,6 +714,18 @@
         {
           "host": "peertube351.pocketnet.app",
           "ip": "185.148.146.11",
+          "upload": false,
+          "online": true
+        }
+      ]
+    },
+    "bastyon_s48": {
+      "hooked": true,
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube361.pocketnet.app",
+          "ip": "185.141.63.171",
           "upload": false,
           "online": true
         }
