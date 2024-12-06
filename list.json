@@ -527,7 +527,7 @@
           "host": "peertube33.pocketnet.app",
           "ip": "185.141.60.118",
           "upload": false,
-          "online": true
+          "online": false
         }
       ]
     },
@@ -781,6 +781,18 @@
         {
           "host": "peertube800.pocketnet.app",
           "ip": "91.92.144.143",
+          "upload": false,
+          "online": true
+        }
+      ]
+    },
+    "bastyon_s56": {
+      "hooked": true,
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube331.pocketnet.app",
+          "ip": "185.141.60.118",
           "upload": false,
           "online": true
         }
