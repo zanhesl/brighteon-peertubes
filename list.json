@@ -670,7 +670,9 @@
     },
     "bastyon_s46": {
       "hooked": true,
-      "archived": false,
+      "archived": [
+        "bastyon_ar01"
+      ],
       "list": [
         {
           "host": "peertube341.pocketnet.app",
